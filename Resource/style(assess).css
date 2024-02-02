@@ -1,0 +1,47 @@
+.body{
+
+}
+.navbar{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar .logo{
+    color: white;
+    font-weight: bolder
+}
+.navbar .all-links a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .all-links{
+    display: flex;
+    position: relative;
+}
+.navbar .all-links li{
+    list-style: none;
+    margin: 0 22px;
+}
+.navbar .all-links a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration: red;
+}
+.button{
+     padding: 34px;
+    text-align: center;
+}
+.button button{
+    color:white;
+    background-color:transparent;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.button button:hover{
+     color: black;
+     background-color: dimgrey;
+}
